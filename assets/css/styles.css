@@ -1,256 +1,266 @@
-html {}
-
-body {
-    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: silver;
-}
-
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
-    margin-left: 0px;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h4 {
-    display: block;
-    margin-top: 1.33em;
-    margin-bottom: 1.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h5 {
-    display: block;
-    font-size: .83em;
-    margin-top: 1.67em;
-    margin-bottom: 1.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h6 {
-    display: block;
-    font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-h1,
-h2,
-h4,
-h5,
-h6 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: black;
-}
-
-h3 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: black;
-}
-
-a:link {
-    color: purple;
-    background-color: transparent;
-    text-decoration: none;
-    color: inherit;
-}
-
-a:visited {
-    color: rgb(163, 20, 144);
-    background-color: transparent;
-    text-decoration: none;
-    color: inherit;
-}
-
-p {
-    margin: 13px;
-    padding: 13px;
-}
-
-header {
-    background-color: rgb(49, 175, 76);
-    border-bottom: 2px solid #cccccc;
-    margin-bottom: 5px;
-    border-radius: 10px
-}
-
-#insideHeader,
-main {
-    width: 960px;
-    margin: 0 auto;
-}
-
-#leftOfInsideHeader {
-    background-color: forestgreen;
-    float: left;
-    margin-top: 2%;
-    width: 33%;
-    text-align: center;
-    border: 3px solid #ddd;
-    border-radius: 15px;
-}
-
-#leftOfInsideHeader h1,
-#leftOfInsideHeader h2 {
-    color: white;
-}
-
-#rightOfInsideHeader {
-    float: right;
-    padding: 20px 0;
-    margin: auto;
-    width: 300px;
-    text-align: center;
-    background-color: rgb(49, 175, 76);
-}
-
-#rightOfInsideHeader li {
-    display: inline-block;
-    font-size: .8em;
-    margin: 0px;
-}
-
-#rightOfInsideHeader li a {
-    padding: 10px;
-    color: purple;
-    border-radius: 20px
-}
-
-footer {
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: lightslategray;
-    border-top: 10px solid forestgreen;
-}
-
-footer h6 {
-    text-align: center;
-}
-
-img {
-    border-radius: 20px;
-    align-content: center;
-    margin: 5px 5px 0px 0;
-}
-
-#leftOfMain {
-    width: 650px;
-    padding: 10px;
-    float: left;
-    background-color: #fff;
-    border-radius: 50px;
-}
-
-#leftOfMain p {
-    line-height: 1.5em;
-}
-
-#leftOfMain h3 {
-    padding-left: 10px;
-    margin-left: 10px;
-    border-bottom: 6.66px solid purple;
-    border-radius: 50px;
-}
-
-#leftOfMain ol {
-    margin-left: 30px;
-}
-
-#leftOfMain ol li {
-    padding: 5px;
-}
-
-#rightOfMain {
-    width: 270px;
-    float: right;
-    background-color: lightgray;
-    text-align: center;
-    border-radius: 20px;
-}
-
-.group:after {
-    content: "";
-    display: table;
-    clear: both
-}
-
-.group div {
-    margin-left: 20%;
-}
-
-
-/* HTML5 display-role reset for older browsers */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-    display: block;
-}
-
-body {
-    line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-blockquote,
-q {
-    quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    /* Misc */
-    content: "";
-    content: none;
-}
-
-table {
-    border-spacing: 0;
-    /* Visual */
-    border-collapse: collapse;
-}
+                html {}
+        
+        body {
+            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+            color: #777777;
+            background-color: silver;
+        }
+        
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-top: 0.67em;
+            margin-bottom: 0.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h2 {
+            display: block;
+            font-size: 1.5em;
+            margin-top: 0.83em;
+            margin-bottom: 0.83em;
+            margin-left: 0px;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h3 {
+            display: block;
+            font-size: 1.17em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h4 {
+            display: block;
+            margin-top: 1.33em;
+            margin-bottom: 1.33em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h5 {
+            display: block;
+            font-size: .83em;
+            margin-top: 1.67em;
+            margin-bottom: 1.67em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h6 {
+            display: block;
+            font-size: .67em;
+            margin-top: 2.33em;
+            margin-bottom: 2.33em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+        
+        h1,
+        h2,
+        h4,
+        h5,
+        h6 {
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            color: black;
+        }
+        
+        h3 {
+            font-family: Georgia, Times, 'Times New Roman', serif;
+            color: black;
+        }
+        
+        a:link {
+            color: purple;
+            background-color: transparent;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        a:visited {
+            color: rgb(163, 20, 144);
+            background-color: transparent;
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        p {
+            margin: 13px;
+            padding: 13px;
+        }
+        
+        header {
+            background-color: rgb(49, 175, 76);
+            border-bottom: 2px solid #cccccc;
+            margin-bottom: 5px;
+            border-radius: 10px
+        }
+        
+        #insideHeader,
+        main {
+            width: 960px;
+            margin: 0 auto;
+        }
+        
+        #leftOfInsideHeader {
+            background-color: forestgreen;
+            float: left;
+            margin-top: 2%;
+            width: 33%;
+            text-align: center;
+            border: 3px solid #ddd;
+            border-radius: 15px;
+        }
+        
+        #leftOfInsideHeader h1,
+        #leftOfInsideHeader h2 {
+            color: white;
+        }
+        
+        #rightOfInsideHeader {
+            float: right;
+            padding: 20px 0;
+            margin: auto;
+            width: 300px;
+            text-align: center;
+            background-color: rgb(49, 175, 76);
+        }
+        
+        #rightOfInsideHeader li {
+            display: inline-block;
+            font-size: .8em;
+            margin: 0px;
+        }
+        
+        #rightOfInsideHeader li a {
+            padding: 10px;
+            color: purple;
+            border-radius: 20px
+        }
+        
+        footer {
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: lightslategray;
+            border-top: 10px solid forestgreen;
+        }
+        
+        footer h6 {
+            text-align: center;
+        }
+        
+        img {
+            border-radius: 20px;
+            align-content: center;
+            margin: 5px 5px 0px 0;
+        }
+        
+        #leftOfMain {
+            width: 650px;
+            padding: 10px;
+            float: left;
+            background-color: #fff;
+            border-radius: 50px;
+        }
+        
+        #leftOfMain p {
+            line-height: 1.5em;
+        }
+        
+        #leftOfMain h3 {
+            padding-left: 10px;
+            margin-left: 10px;
+            border-bottom: 6.66px solid purple;
+            border-radius: 50px;
+        }
+        
+        #leftOfMain ol {
+            margin-left: 30px;
+        }
+        
+        #leftOfMain ol li {
+            padding: 5px;
+        }
+        
+        #rightOfMain {
+            width: 270px;
+            float: right;
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 20px;
+        }
+        
+        .group:after {
+            content: "";
+            display: table;
+            clear: both
+        }
+        
+        .group div {
+            margin-left: 20%;
+        }
+        /* HTML5 display-role reset for older browsers */
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+        
+        body {
+            line-height: 1;
+        }
+        
+        ol,
+        ul {
+            list-style: none;
+        }
+        
+        blockquote,
+        q {
+            quotes: none;
+        }
+        
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            /* Misc */
+            content: "";
+            content: none;
+        }
+        
+        table {
+            border-spacing: 0;
+            /* Visual */
+            border-collapse: collapse;
+        }
+        
+        @media screen and (max-width: 768px) {
+            /* The body's bg color will be #333 */
+            body {
+                background-color: greenyellow;
+                padding: 10%;
+                margin: 10%;
+            }
+            /* The wrapper's width will be 600px */
+            .wrapper {
+                width: 600px;
+                background-color: aqua;
